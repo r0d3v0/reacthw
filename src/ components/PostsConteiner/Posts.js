@@ -19,7 +19,7 @@ const Posts = () => {
 
     return (
         <div>
-            {posts.map(post=><Post key={post.id} post={post} getPostId={getPostId}/>)}
+            {posts.map(post=><Post key={post.id} post={post} getPostId={getPostId  }/>)}
             <hr/>
             {postDetails&&<PostDetails postDetails={postDetails}/>}
         </div>
