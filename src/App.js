@@ -1,9 +1,12 @@
+import {UserPost} from "./userPostsContainer/UserPost";
+
+
 const App = () => {
     return (
         <div>
-            App
+            <UserPost/>
         </div>
     );
 };
 
-export {App}
+export {App};
